@@ -1,10 +1,11 @@
+[![GoDoc](https://godoc.org/github.com/golibri/fetch?status.svg)](https://godoc.org/github.com/golibri/fetch)
 [![Built with Spacemacs](https://cdn.rawgit.com/syl20bnr/spacemacs/442d025779da2f62fc86c2082703697714db6514/assets/spacemacs-badge.svg)](http://github.com/syl20bnr/spacemacs)
 
 # golibri/fetch
 Get and normalize textual content from URLs. Does a few things that go's stdlib doesn't: 
 
 - normalize URLs before executing a request (missing `http://`, beginning with `//`, ...)
-- normalize response buffer to a valid UTF-8 string
+- normalize response buffer to a valid UTF-8 string (*ToDo*)
 
 # installation
 `go get github.com/golibri/fetch`
