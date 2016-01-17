@@ -11,7 +11,7 @@ Get and normalize textual content from URLs. Does a few things that go's stdlib 
 
 # usage
 ````go
-page, err := Get("http://blog.golang.org/go1.5")
+page, err := fetch.Get("http://blog.golang.org/go1.5")
 normalized_url := page.Url
 content_string := page.Body
 ````
